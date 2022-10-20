@@ -1,0 +1,98 @@
+.list{
+    margin-top: 100px;
+}
+
+.table{
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.table__header{
+    position: relative;
+    border: 1px solid;
+}
+
+.table__series{
+    border: 1px solid;
+}
+
+.table__title{
+    padding: 40px 80px;
+    border: 1px solid;
+    &:first-child{
+        padding: 40px 25px;
+    }
+
+    &:nth-child(3), &:nth-child(4){
+        padding: 40px 60px;
+    }
+}
+
+
+
+.table__title--common{
+    position: absolute;
+    padding: 20px 40px;
+    width: 400px;
+    height: 50px;
+}
+
+
+.table__title--left{
+    position: absolute;
+    padding: 20px 40px;
+    width: 200px;
+    height: 50px;
+    top: 50px;
+    border: 0px;
+}
+.table__title--right{
+    position: absolute;
+    padding: 20px 40px;
+    width: 200px;
+    height: 50px;
+    top: 48px;
+    right: -2px;
+}
+
+// clients
+
+
+.client__number{
+    padding: 20px 25px;
+}
+
+.client__name{
+    padding: 20px 80px;
+    border: 1px solid;
+}
+
+.client__product{
+    padding: 20px 60px;
+    border: 1px solid;
+}
+
+.client__cost{
+    text-align: center;
+    border: 1px solid;
+    padding: 20px 40px;
+    width: 200px;
+    height: 50px;
+}
+
+.total{
+    position: absolute;
+    width: 680px;
+    border: 1px solid;
+    padding: 20px 40px;
+    text-align: center;
+}
+
+.amount{
+    position: absolute;
+    right: 315px;
+    border: 1px solid;
+    width: 400px;
+    padding: 20px 40px;
+    text-align: center;
+}
